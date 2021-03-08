@@ -4,7 +4,7 @@
     "occupation":"student at UT Austin",
     "description":"Senior at UT Austin studying Computational Engineering",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I enjoy deep learning projects, reading, and running",
     "contactmessage":"Please reach out if there is anything you'd like to chat about.",
     "email": "awitt2399@utexas.edu",
     "phone": "555-555-5555",
@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"/resume.pdf",
     "social":[
       {
         "name":"facebook",
@@ -60,44 +60,13 @@
         "years":"2019 - 2021",
         "description":"Teaching and leading a team of 5-10 people to create open-sourced machine learning application."
       }
-    ],
-    "skillmessage":"Through my education and work experience I've gain an array of skills in various domains.",
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      }
     ]
   },
   "portfolio":{
     "projects": [
       {
         "title":"UAV Austin hawk-eye",
-        "category":"My Travel Blog for my post-university travels",
+        "category":"Open-source Aerial Machine Learning Pipeline",
         "image":"phoenix.jpg",
         "url":"https://github.com/uavaustin/hawk-eye"
       }

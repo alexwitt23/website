@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
@@ -9,6 +8,35 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import Photos from './Components/Photos';
+
+const photos = [
+  {
+    src: process.env.PUBLIC_URL + '/images/bryce.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: process.env.PUBLIC_URL + '/images/yellowstone.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: process.env.PUBLIC_URL + '/images/yellowstone2.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: process.env.PUBLIC_URL + '/images/yellowstone3.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: process.env.PUBLIC_URL + '/images/kittylake.jpg',
+    width: 3,
+    height: 4
+  }
+];
 
 class App extends Component {
 
@@ -46,16 +74,14 @@ class App extends Component {
 
   render() {
     return (
-      <HashRouter basename='/'>
-        <div className="App">
-          <Header data={this.state.resumeData.main}/>
-          <About data={this.state.resumeData.main}/>
-          <Resume data={this.state.resumeData.resume}/>
-          <Portfolio data={this.state.resumeData.portfolio}/>
-          <Contact data={this.state.resumeData.main}/>
-          <Footer data={this.state.resumeData.main}/>
-        </div>
-      </HashRouter>
+      <div className="App">
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Photos photos={photos} title={"Photos"}/>
+        <Contact data={this.state.resumeData.main}/>
+        <Footer data={this.state.resumeData.main}/>
+      </div>
     );
   }
 }

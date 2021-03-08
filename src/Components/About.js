@@ -13,34 +13,34 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      var resumeDownload = process.env.PUBLIC_URL + this.props.data.resumedownload;
     }
 
     return (
       <section id="about">
       <div className="row">
-         <div className="three columns">
+         <div className="two columns">
             <img className="profile-pic"  src={process.env.PUBLIC_URL + profilepic} alt="Alex Witt Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
-
-            <p>{bio}</p>
+            <p>
+               I am senior at the University of Texas at Austin studying Computational Engineering.
+               I enjoy deep learning projects, reading, and running.
+               
+            </p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
+						   <span>Austin, TX</span><br />
+
                      <span>{email}</span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} download="alex_witt_resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
