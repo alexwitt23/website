@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 
 class Portfolio extends Component {
   render() {
@@ -8,16 +9,17 @@ class Portfolio extends Component {
         var projectImage = process.env.PUBLIC_URL + '/images/portfolio/' + projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
+           <MDBCol style={{ maxWidth: "22rem" }}>
+            <MDBCard>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                <MDBBtn href="#">Click</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
           </div>
         </div>
       })
@@ -25,16 +27,10 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-
       <div className="row">
-
          <div className="twelve columns collapsed">
-
             <h1>Check Out Some of My Works.</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-            </div>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">{projects}</div>
           </div>
       </div>
    </section>
