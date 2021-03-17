@@ -11,12 +11,13 @@ function columns(containerWidth) {
   return columns;
 }
 
-const Photos = ({photos, title}) => {
+const Photos = ({photos}) => {
   return (
-    <div>
-      <h2>Photos</h2>
-      <Gallery photos={photos} direction={'column'} columns={columns} />
-    </div>
+    <section id="photos">
+      <div>
+        <Gallery photos={photos} direction={'column'} columns={columns} />
+      </div>
+    </section>
   );
 }
 

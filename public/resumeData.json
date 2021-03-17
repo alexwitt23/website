@@ -69,6 +69,12 @@
         "category":"Open-source Aerial Machine Learning Pipeline",
         "image":"phoenix.jpg",
         "url":"https://github.com/uavaustin/hawk-eye"
+      },
+      {
+        "title":"WildSight",
+        "category":"Open-source AI Biological App",
+        "image":"phoenix.jpg",
+        "url":"https://github.com/uavaustin/WildSight"
       }
     ]
   }

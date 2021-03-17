@@ -19,15 +19,25 @@ class About extends Component {
     return (
       <section id="about">
       <div className="row">
-         <div className="two columns">
-            <img className="profile-pic"  src={process.env.PUBLIC_URL + profilepic} alt="Alex Witt Pic" />
+         <div className="three columns">
+            <img className="profile-pic"  src={process.env.PUBLIC_URL + profilepic} alt="Alex Witt Pic"/>
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-               I am senior at the University of Texas at Austin studying Computational Engineering.
-               I enjoy deep learning projects, reading, and running.
+               I am currently a senior at the University of Texas at Austin studying Computational Engineering.
+               I enjoy deep learning projects, pour over coffee, reading, and running.
+            </p>
+            <p>
                
+            </p>
+            <p>
+               While in school, I've also worked as a machine learning engineer at 
+               <a href="https://www.terraclear.com/"> TerraClear, </a> an agricultural tech startup in based
+               in Bellevue, WA and Grangeville, ID. Placing emphasis on robust software and rapid
+               model experimentation, I helped implement, train, and deploy state of the art AI models. I also
+               integrated these models into a PyTorch-based inferencing application which currently produces
+               the aerial maps as TerraClear.
             </p>
             <div className="row">
                <div className="columns contact-details">
