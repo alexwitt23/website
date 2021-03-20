@@ -73,8 +73,14 @@
       {
         "title":"WildSight",
         "category":"Open-source AI Biological App",
-        "image":"phoenix.jpg",
-        "url":"https://github.com/uavaustin/WildSight"
+        "image":"wildsight.jpg",
+        "url":"https://github.com/alexwitt23/WildSight"
+      },
+      {
+        "title":"Truss Solver",
+        "category":"A truss solver.",
+        "image":"truss_solver.jpg",
+        "url":"https://github.com/alexwitt23/TrussSolver"
       }
     ]
   }
