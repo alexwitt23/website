@@ -216,9 +216,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 220px;
-   height: 220px;
+   width: 100%;
+   height: 250px;
    border-radius: 100%;
+   object-fit: cover;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -357,8 +358,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -366,23 +367,27 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #686868;
+   color: #252525;
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns {
-   margin-bottom: 36px;
+#portfolio-wrapper .column-text {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+   color: #252525;
 }
+
+#portfolio-wrapper .columns {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+}
+
 .portfolio-item .item-wrap {
    background: #fff;
-   overflow: hidden;
-   position: relative;
-
-   -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   margin-left: auto;
+   margin-right: auto;
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -434,6 +439,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {

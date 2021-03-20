@@ -31,12 +31,22 @@ const photos = [
     height: 4
   },
   {
+    src: process.env.PUBLIC_URL + '/images/bryce2.jpg',
+    width: 4,
+    height: 3
+  },
+  {
     src: process.env.PUBLIC_URL + '/images/flowers.jpg',
     width: 4,
     height: 3
   },
   {
     src: process.env.PUBLIC_URL + '/images/yellowstone2.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: process.env.PUBLIC_URL + '/images/bryce3.jpg',
     width: 4,
     height: 3
   },

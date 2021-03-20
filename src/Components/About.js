@@ -11,7 +11,7 @@ class About extends Component {
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
+      var phone = this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = process.env.PUBLIC_URL + this.props.data.resumedownload;
     }
@@ -29,7 +29,10 @@ class About extends Component {
                I enjoy deep learning projects, pour over coffee, reading, and running.
             </p>
             <p>
-               
+               Computational Engineering is a combination of physics, math, engineering and numerical
+               analysis. The applications are ubiquitous and often take form as computational fluid dynamics
+               or finite element method. My education has focused on coupling physics with an understaing of
+               the tradeoffs that come with using different numerical methods to solve physical systems.
             </p>
             <p>
                While in school, I've also worked as a machine learning engineer at 
@@ -37,8 +40,15 @@ class About extends Component {
                in Bellevue, WA and Grangeville, ID. Placing emphasis on robust software and rapid
                model experimentation, I helped implement, train, and deploy state of the art AI models. I also
                integrated these models into a PyTorch-based inferencing application which currently produces
-               the aerial maps as TerraClear.
+               the aerial maps at TerraClear.
             </p>
+
+            <p>
+               Outside of class, I am a member of The Tau Beta Pi engineering honor society, where I served
+               as historian for 2 years. I also lead the Image Recognition team within the software division
+               of the Unmanned Autonomous Vehicle club at <a href="https://uavaustin.org/"> UAV Austin</a>.
+            </p>
+
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
