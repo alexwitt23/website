@@ -434,7 +434,8 @@ ul#nav li.current a { color: #F06000; }
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 80%;
+   width: 100%;
+   eight: 100%;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
