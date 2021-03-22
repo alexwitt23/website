@@ -31,7 +31,7 @@ class About extends Component {
             <p>
                Computational Engineering is a combination of physics, math, engineering and numerical
                analysis. The applications are ubiquitous and often take form as computational fluid dynamics
-               or finite element method. My education has focused on coupling physics with an understaing of
+               or finite element method. My education has focused on coupling physics with an understanding of
                the tradeoffs that come with using different numerical methods to solve physical systems.
             </p>
             <p>
@@ -46,7 +46,7 @@ class About extends Component {
             <p>
                Outside of class, I am a member of The Tau Beta Pi engineering honor society, where I served
                as historian for 2 years. I also lead the Image Recognition team within the software division
-               of the Unmanned Autonomous Vehicle club at <a href="https://uavaustin.org/"> UAV Austin</a>.
+               at <a href="https://uavaustin.org/"> UAV Austin</a>.
             </p>
 
             <div className="row">

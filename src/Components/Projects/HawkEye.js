@@ -8,7 +8,7 @@ class HawkEye extends Component {
     return (
       <div className="row">
         <div className="column-card">
-          <div key={"uav"} className="columns portfolio-item">
+          <div key={"uav"} className="portfolio-item">
             <div className="item-wrap">
               <a href={"https://github.com/uavaustin/hawk-eye"} title={"uav"}>
                 <img alt={"uav"} src={imgPath} />
@@ -28,7 +28,8 @@ class HawkEye extends Component {
             The goal of this project is to create an AI application to can find
             various targets of interest from aerial photography. We modify existing
             deep neural networks to achieve real-time inferencing of 4K images in under
-            1 second on a compute device that runs on our drone. 
+            1 second on a compute device that runs on our drone. Check out the overview
+            <a href="https://user-images.githubusercontent.com/31543169/111933494-98973400-8a8d-11eb-930f-38fe56573c82.gif"> here.</a>
           </p>
           <p>
             I spent 3 awesome years developing personally and technically at UAV Austin,

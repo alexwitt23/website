@@ -7,7 +7,7 @@ class WildSight extends Component {
     return (
       <div className="row">
         <div className="column-card">
-          <div key={"uav"} className="columns portfolio-item">
+          <div key={"uav"} className="portfolio-item">
             <div className="item-wrap">
               <a href={"https://github.com/alexwitt23/WildSight"} title={"wildsight"}>
                 <img alt={"wildsight"} src={imgPath} />
