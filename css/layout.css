@@ -435,18 +435,9 @@ ul#nav li.current a { color: #F06000; }
    margin-left: auto;
    margin-right: auto;
    width: 100%;
-   eight: 100%;
+   height: 100%;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
-}
-.portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
-   margin-bottom: 0;
-}
+
 
 /* on hover */
 .portfolio-item:hover .overlay {
