@@ -24,7 +24,7 @@ class Truss extends Component {
         <div className="column-text">
           <h4>{"2-3D Truss Solver"}</h4>
           <p>
-            A codebase to solve 2 or 3 dimensional turss and beam systems for a structural
+            A codebase to solve 2 or 3 dimensional truss and beam systems for a structural
             analysis class. The code can solve for element forces, moments, stress, and strains
             in arbitary systems, like the pictured bridge structure. Accurate structural analysis
             has built much of the physical world.
