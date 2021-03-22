@@ -12,9 +12,6 @@ class WildSight extends Component {
               <a href={"https://github.com/alexwitt23/WildSight"} title={"wildsight"}>
                 <img alt={"wildsight"} src={imgPath} />
                 <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{"WildSight"}</h5>
-                  </div>
                 </div>
                 <div className="link-icon"><i className="fa fa-link"></i></div>
               </a>

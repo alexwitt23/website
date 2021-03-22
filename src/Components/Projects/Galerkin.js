@@ -12,9 +12,6 @@ class Galerkin extends Component {
               <a href={"https://github.com/alexwitt23/TrussSolver"} title={"galerkin"}>
                 <img alt={"galerkin"} src={imgPath} />
                 <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{"Galerkin"}</h5>
-                  </div>
                 </div>
                 <div className="link-icon"><i className="fa fa-link"></i></div>
               </a>

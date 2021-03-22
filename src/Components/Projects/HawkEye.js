@@ -13,9 +13,6 @@ class HawkEye extends Component {
               <a href={"https://github.com/uavaustin/hawk-eye"} title={"uav"}>
                 <img alt={"uav"} src={imgPath} />
                 <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{"UAV HawkEye"}</h5>
-                  </div>
                 </div>
                 <div className="link-icon"><i className="fa fa-link"></i></div>
               </a>

@@ -12,9 +12,6 @@ class Truss extends Component {
               <a href={"https://github.com/alexwitt23/TrussSolver"} title={"truss_solver"}>
                 <img alt={"wildsight"} src={imgPath} />
                 <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{"Truss Solver"}</h5>
-                  </div>
                 </div>
                 <div className="link-icon"><i className="fa fa-link"></i></div>
               </a>
