@@ -22,7 +22,7 @@ class HawkEye extends Component {
         <div className="column-text">
           <h4>{"UAV Aerial Inference Application"}</h4>
           <p>
-            The goal of this project is to create an AI application to can find
+            The goal of this project is to create an AI application that can find
             various targets of interest from aerial photography. We modify existing
             deep neural networks to achieve real-time inferencing of 4K images in under
             1 second on a compute device that runs on our drone. Check out the overview
