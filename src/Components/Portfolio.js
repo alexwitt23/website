@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import HawkEye from './Projects/HawkEye'
 import WildSight from './Projects/WildSight';
 import Truss from './Projects/Truss';
+import Galerkin from './Projects/Galerkin'
 
 
 class Portfolio extends Component {
@@ -16,6 +17,7 @@ class Portfolio extends Component {
               <HawkEye></HawkEye>
               <WildSight></WildSight>
               <Truss></Truss>
+              <Galerkin></Galerkin>
               </div>
             </div>
         </div>
