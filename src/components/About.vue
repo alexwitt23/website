@@ -5,12 +5,6 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="col-md-5 gy-5">
-          <img
-          src="https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262877-fa213300-99a7-11eb-9594-f6b7f25b8992.jpg"
-          class="img-fluid"
-          >
-        </div>
-        <div class="col-md-5 gy-5">
           <p class="text-start lh-base">
               I am currently a senior at the University of Texas at Austin studying
               Computational Engineering. I enjoy deep learning projects, pour over coffee,
