@@ -6,7 +6,7 @@
       <div class="row justify-content-md-center">
         <div class="col-md-5 gy-5">
           <img
-          src="https://user-images.githubusercontent.com/31543169/114262877-fa213300-99a7-11eb-9594-f6b7f25b8992.jpg"
+          src="https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262877-fa213300-99a7-11eb-9594-f6b7f25b8992.jpg"
           class="img-fluid"
           >
         </div>
