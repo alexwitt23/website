@@ -2,7 +2,7 @@
 <navbar></navbar>
 <div class="container-fluid">
   <div class="jumbotron jumbotron-image"
-  style="background-image: url(https://user-images.githubusercontent.com/31543169/115947015-89d7de80-a48a-11eb-8a77-a593b01b4458.jpg);">
+  style="background-image: url(https://cdn.jsdelivr.net/gh/alexwitt23/website@releases/download/v0.0.1/background.jpg);">
     <div class="container">
       <h1 class="text-center">Hi, I'm Alex</h1>
       <h2 class="text-center">A coder, engineer, and student at UT Austin</h2>
