@@ -26,7 +26,7 @@
           </p>
           <p class="text-start lh-base">
               While in school, I've also worked as a machine learning engineer at TerraClear,
-              an agricultural tech startup in based in Bellevue, WA and Grangeville, ID.
+              an agricultural tech startup based in Bellevue, WA and Grangeville, ID.
               Placing emphasis on robust software and rapid model experimentation,
               I helped implement, train, and deploy state of the art AI models. I also
               integrated these models into a PyTorch-based inferencing application which
