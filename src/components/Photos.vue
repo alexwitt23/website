@@ -7,8 +7,8 @@
       These are some photos I've collected over the years. I'm no professional, but sometimes
       scenery deserves to be captured.
     </p>
-    <div class="row justify-content-md-center">
-      <div class="col-8 justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-10">
         <img v-for="image in images" v-bind:key="image" :src="image.url" class="img-fluid mb-4">
       </div>
     </div>
