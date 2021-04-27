@@ -29,7 +29,6 @@ export default {
     return { 
       images: [
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262869-f8f00600-99a7-11eb-85e4-9c271704c1b7.jpg"},
-        {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262870-f8f00600-99a7-11eb-9f08-c048ac23333b.jpg"},
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262872-f8f00600-99a7-11eb-9454-08f6c2b1c46a.jpg"},
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262873-f9889c80-99a7-11eb-8a92-21347aa157c5.png"},
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262845-da8a0a80-99a7-11eb-90c6-b00dcff0fb8d.jpg"},
