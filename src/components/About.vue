@@ -6,10 +6,11 @@
       <div class="row justify-content-md-center">
         <div class="col-md-5 gy-5">
           <p class="text-start lh-base">
-              I am currently a senior at the University of Texas at Austin studying
-              Computational Engineering. I enjoy deep learning projects, pour over coffee,
-              reading, and running. I will be staying at UT in 2021 to begin a Master's in
-              Computer Science.
+              I am first year Master's student at The University of Texas at Austin
+              studying computer science. I graduated from UT Austin in 2021 with a BS in
+              <a href="https://cockrell.utexas.edu/academics/computational-engineering">
+              Computational Engineering</a>. Outside of school, I enjoy deep learning
+              projects, pour over coffee, non-fiction literature, and running.
           </p>
           <p class="text-start lh-base">
               Computational Engineering is a combination of physics, math, engineering and
