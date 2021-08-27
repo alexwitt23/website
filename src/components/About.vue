@@ -33,7 +33,8 @@
               within the software division at UAV Austin.
           </p>
           <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-dark">Resume Download</button>
+              <button type="button" onclick="location.href='https://forms.gle/GrpdviPYtpqyyQhn6'"
+              class="btn btn-dark">Resume Download</button>
           </div>
         </div>
       </div>
