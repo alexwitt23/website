@@ -5,7 +5,7 @@
     <h1 class="text-center mt-4 mb-4">Photos</h1>
     <p class="text-center">
       These are some photos I've collected over the years. I'm no professional, but sometimes
-      scenery deserves to be captured.
+      moments have to be captured.
     </p>
     <div class="row justify-content-center">
       <div class="col-10">
@@ -38,7 +38,8 @@ export default {
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262878-fa213300-99a7-11eb-95d7-27c89722f448.jpg"},
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262879-fa213300-99a7-11eb-8241-74b418e3a0c4.jpg"},
         {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262880-fab9c980-99a7-11eb-9e92-61bea77d247a.jpg"},
-        {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262881-fab9c980-99a7-11eb-9f99-b2d0a93c5ea2.jpg"}
+        {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262881-fab9c980-99a7-11eb-9f99-b2d0a93c5ea2.jpg"},
+        {"url": "https://cdn.jsdelivr.net/gh/alexwitt23/website-assets@main/photos/114262881-fab9c980-99a7-11eb-9f99-b2d0a93c5ea3.jpg"}
       ]
     }
   },
