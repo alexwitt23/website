@@ -4,7 +4,7 @@
     <h1 class="text-center mb-4 mt-4">About Me</h1>
     <div class="container">
       <div class="row justify-content-md-center">
-        <div class="col-md-5 gy-5">
+        <div class="col-md-8 gy-5">
           <p class="text-start lh-base">
               I am first year Master's student at The University of Texas at Austin
               studying computer science. I graduated from UT Austin in 2021 with a BS in
