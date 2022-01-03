@@ -9,7 +9,7 @@
     </p>
     <div class="row justify-content-center">
       <div class="col-10">
-        <img v-for="image in images" v-bind:key="image" :src="image.url" class="img-fluid mb-4">
+        <v-lazy-image v-for="image in images" v-bind:key="image" :src="image.url" class="img-fluid mb-4"/>
       </div>
     </div>
   </div>
@@ -19,11 +19,13 @@
 <script>
 
 import NavBar from '../layouts/NavBar'
+import VLazyImage from "v-lazy-image";
 
 
 export default {
   components: {
-    'navbar': NavBar
+    'navbar': NavBar,
+    VLazyImage,
   },
   data() {
     return { 
@@ -47,4 +49,5 @@ export default {
 </script> 
 
 <style>
+
 </style>

@@ -10,7 +10,7 @@
           <div class="d-flex justify-content-center">
             <div class=" shadow card border-secondary mb-3" style="width: 30rem;">
               <div class="card-body">
-                <h5 class="card-title">TerraClear</h5>
+                <h5 class="card-title">TerraClear (05.2019 - 08.2021)</h5>
                 <h5 class="card-subtitle">Machine Learning Engineer</h5>
                 <p class="card-text">
                   <ul>
@@ -36,25 +36,51 @@
             </div>
           </div>
 
-          <h4> TerraClear (05.2019 - 08.2021)</h4>
-          <p>Machine Learning Engineer</p>
-          
-          <h4> Human Centered Robotics Lab (05.2019 - current)</h4>
-          <p>Student Researcher</p>
+
+          <div class="d-flex justify-content-center">
+            <div class=" shadow card border-secondary mb-3" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title">Human Centered Robotics Lab (05.2019 - current)</h5>
+                <h5 class="card-subtitle">Student Researcher</h5>
+                <p class="card-text">TODO</p>
+              </div>
+            </div>
+          </div>
 
 
-          <h3 class="mt-4 mb-4">School Positions</h3>
-          <h3>Texas Convergent (Technical Program Manager)</h3>
-          <p>For the Spring 2021 semester, I am working as a Technical Program Manager.</p>
+          <div class="d-flex justify-content-center">
+            <div class=" shadow card border-secondary mb-3" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title">Texas Convergent</h5>
+                <h5 class="card-subtitle">Technical Program Manager</h5>
+                <p class="card-text">TODO</p>
+              </div>
+            </div>
+          </div>
 
-          <h3 class="mt-4 mb-4">2021</h3>
-          <h3>Student Researcher</h3>
-          <p></p>
-        
 
-          <h3>Texas Convergent (Lead Engineer)</h3>
-          <p>For the Fall 2021 semester, I was the lead engineer in <a href="https://www.txconvergent.org/">Texas Convergent</a>'s
-          Incubator program. With the program manager, I helped design a path towards our final deliverable.</p>
+          <div class="d-flex justify-content-center">
+            <div class=" shadow card border-secondary mb-3" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title">Texas Convergent</h5>
+                <h5 class="card-subtitle">Lead Engineer</h5>
+                <p class="card-text">TODO</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="d-flex justify-content-center">
+            <div class=" shadow card border-secondary mb-3" style="width: 30rem;">
+              <div class="card-body">
+                <h5 class="card-title">UAV Austin</h5>
+                <h5 class="card-subtitle">Image Recognition Lead</h5>
+                <p class="card-text">TODO</p>
+              </div>
+            </div>
+          </div>
+
+    
         </div>
       </div>
     </div>

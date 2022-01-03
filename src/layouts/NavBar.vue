@@ -1,5 +1,4 @@
 <template>
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +23,18 @@
         </li>
       </ul>
     </div>
+    <div class="row">
+      <div class="col">
+        <a href="https://www.linkedin.com/in/alexwitt23/">
+          <font-awesome-icon class="icon" :icon="['fab', 'linkedin']" />
+        </a>
+      </div>
+      <div class="col me-1">
+        <a href="https://github.com/alexwitt23">
+          <font-awesome-icon class="icon" :icon="['fab', 'github']" />
+        </a>
+      </div>
+    </div>
   </div>
 </nav>
 </template>
@@ -37,4 +48,8 @@ export default {}
 
 <style>
 
+.icon {
+  font-size:30px;
+  color:white;
+}
 </style>

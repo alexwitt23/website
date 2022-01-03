@@ -17,8 +17,8 @@ import NavBar from '../layouts/NavBar'
 
 export default {
   components: {
-    'navbar': NavBar
-  }
+    'navbar': NavBar,
+  },
 }
 
 </script>
