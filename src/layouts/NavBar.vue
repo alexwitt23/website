@@ -17,7 +17,10 @@
           <router-link class="nav-link" to="/photos">Photos</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/projects">Projects</router-link>
+          <router-link class="nav-link" to="/experience">Experience</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/leadership">Leadership</router-link>
         </li>
       </ul>
     </div>
@@ -31,3 +34,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default {}
 </script>
+
+<style>
+
+</style>

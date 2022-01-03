@@ -47,7 +47,4 @@ export default {
 </script> 
 
 <style>
-.img-fluid {
-  border: 6px solid #555;
-}
 </style>
